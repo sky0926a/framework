@@ -1,0 +1,11 @@
+framework module CinnoxVisitorCore {
+  umbrella header "CinnoxVisitorCore.h"
+
+  export *
+  module * { export * }
+}
+
+module CinnoxVisitorCore.Swift {
+  header "CinnoxVisitorCore-Swift.h"
+  requires objc
+}
