@@ -1,15 +1,15 @@
-# `CinnoxVisitorCore`
+# `CinnoxVisitorCoreSDK`
 
-This guide provides instructions for setting up and using the `CinnoxVisitorCore` framework in your iOS application.
+This guide provides instructions for setting up and using the `CinnoxVisitorCoreSDK` framework in your iOS application.
 
 ## iOS Quick Start Guide
 
-To quickly integrate the `CinnoxVisitorCore` framework into your iOS application, follow these steps:
+To quickly integrate the `CinnoxVisitorCoreSDK` framework into your iOS application, follow these steps:
 
 1. Open your Xcode project and navigate to the project directory.
 2. Open the `Podfile` file and add the following line:
 ```
-pod 'CinnoxVisitorCore', '~> 1.0.0'
+pod 'CinnoxVisitorCoreSDK', '~> 1.0.0'
 ```
 3. Save the `Podfile` and run the command `pod install` in the project directory to install the framework.
 > Note: Make sure you have CocoaPods installed on your system before running the `pod install` command.
@@ -25,7 +25,7 @@ To add a sample app to a Cinnox project, follow these steps:
 
 ## How to Use
 
-To use the `CinnoxVisitorCore` framework in your iOS application, follow these steps:
+To use the `CinnoxVisitorCoreSDK` framework in your iOS application, follow these steps:
 
 ### Step 1: Add Initialization Code
 
@@ -59,5 +59,5 @@ class ViewController: UIViewController {
 
 This code creates an instance of `CinnoxVisitorWidget` and adds it as a subview to your view controller's view. Adjust the `frame` parameter according to your desired widget position and size.
 
-That's it! You have now successfully integrated the `CinnoxVisitorCore` framework into your iOS application. You can customize and extend its functionality as needed.
+That's it! You have now successfully integrated the `CinnoxVisitorCoreSDK` framework into your iOS application. You can customize and extend its functionality as needed.
 
