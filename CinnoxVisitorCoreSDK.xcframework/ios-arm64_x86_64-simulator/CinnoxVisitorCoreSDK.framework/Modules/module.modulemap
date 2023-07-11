@@ -1,0 +1,4 @@
+framework module CinnoxVisitorCoreSDK {
+  header "CinnoxVisitorCoreSDK-Swift.h"
+  requires objc
+}

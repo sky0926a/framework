@@ -1,0 +1,2675 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LiveConnectUIKit_iOS",
+        "printedName": "LiveConnectUIKit_iOS",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "M800CoreSDK",
+        "printedName": "M800CoreSDK",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CinnoxVisitorCoreDelegate",
+        "printedName": "CinnoxVisitorCoreDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onInitializationEnd",
+            "printedName": "onInitializationEnd(success:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CinnoxVisitorCoreError",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreError",
+                    "usr": "s:20CinnoxVisitorCoreSDK0abC5ErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC8DelegateP19onInitializationEnd7success5errorySb_AA0abC5ErrorOSgtF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC8DelegateP19onInitializationEnd7success5errorySb_AA0abC5ErrorOSgtF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CinnoxVisitorCoreSDK.CinnoxVisitorCoreDelegate>",
+            "sugared_genericSig": "<Self where Self : CinnoxVisitorCoreSDK.CinnoxVisitorCoreDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20CinnoxVisitorCoreSDK0abC8DelegateP",
+        "mangledName": "$s20CinnoxVisitorCoreSDK0abC8DelegateP",
+        "moduleName": "CinnoxVisitorCoreSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CinnoxVisitorAuthObservable",
+        "printedName": "CinnoxVisitorAuthObservable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorAuthObservable",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorAuthObservable",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableC6sharedACvpZ",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB14AuthObservableC6sharedACvpZ",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CinnoxVisitorAuthObservable",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorAuthObservable",
+                    "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableC6sharedACvgZ",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB14AuthObservableC6sharedACvgZ",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CinnoxVisitorAuthObservable",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorAuthObservable",
+                    "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableC6sharedACvsZ",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB14AuthObservableC6sharedACvsZ",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableC6sharedACvMZ",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB14AuthObservableC6sharedACvMZ",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentUserSubject",
+            "printedName": "currentUserSubject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CurrentValueSubject",
+                "printedName": "Combine.CurrentValueSubject<Swift.String?, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine19CurrentValueSubjectC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableC18currentUserSubject7Combine012CurrentValueI0CySSSgs5NeverOGvp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB14AuthObservableC18currentUserSubject7Combine012CurrentValueI0CySSSgs5NeverOGvp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CurrentValueSubject",
+                    "printedName": "Combine.CurrentValueSubject<Swift.String?, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine19CurrentValueSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableC18currentUserSubject7Combine012CurrentValueI0CySSSgs5NeverOGvg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB14AuthObservableC18currentUserSubject7Combine012CurrentValueI0CySSSgs5NeverOGvg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorAuthObservable",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorAuthObservable",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableCACycfc",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB14AuthObservableCACycfc",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20CinnoxVisitorCoreSDK0aB14AuthObservableC",
+        "mangledName": "$s20CinnoxVisitorCoreSDK0aB14AuthObservableC",
+        "moduleName": "CinnoxVisitorCoreSDK",
+        "isOpen": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CinnoxVisitorCore",
+        "printedName": "CinnoxVisitorCore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC0C8delegateAA0abC8Delegate_pSgvp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C8delegateAA0abC8Delegate_pSgvp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CinnoxVisitorCoreDelegate",
+                        "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreDelegate",
+                        "usr": "s:20CinnoxVisitorCoreSDK0abC8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC0C8delegateAA0abC8Delegate_pSgvg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C8delegateAA0abC8Delegate_pSgvg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CinnoxVisitorCoreDelegate",
+                        "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreDelegate",
+                        "usr": "s:20CinnoxVisitorCoreSDK0abC8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC0C8delegateAA0abC8Delegate_pSgvs",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C8delegateAA0abC8Delegate_pSgvs",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC0C8delegateAA0abC8Delegate_pSgvM",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C8delegateAA0abC8Delegate_pSgvM",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "current",
+            "printedName": "current",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCore?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CinnoxVisitorCore",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCore",
+                    "usr": "s:20CinnoxVisitorCoreSDK0abC0C"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC0C7currentACSgvpZ",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C7currentACSgvpZ",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCore?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CinnoxVisitorCore",
+                        "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCore",
+                        "usr": "s:20CinnoxVisitorCoreSDK0abC0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC0C7currentACSgvgZ",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C7currentACSgvgZ",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCore?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CinnoxVisitorCore",
+                        "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCore",
+                        "usr": "s:20CinnoxVisitorCoreSDK0abC0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC0C7currentACSgvsZ",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C7currentACSgvsZ",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC0C7currentACSgvMZ",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C7currentACSgvMZ",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serviceName",
+            "printedName": "serviceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC0C11serviceNameSSvp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C11serviceNameSSvp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC0C11serviceNameSSvg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C11serviceNameSSvg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC0C9configureyyF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C9configureyyF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(serviceName:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorCore",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCore",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorCoreDelegate",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreDelegate",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC8DelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC0C10initialize11serviceName8delegateACSS_AA0abC8Delegate_ptFZ",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C10initialize11serviceName8delegateACSS_AA0abC8Delegate_ptFZ",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(serviceName:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorCore",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCore",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CinnoxVisitorCoreDelegate",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreDelegate",
+                    "usr": "s:20CinnoxVisitorCoreSDK0abC8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC0C11serviceName8delegateACSS_AA0abC8Delegate_pSgtcfc",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C11serviceName8delegateACSS_AA0abC8Delegate_pSgtcfc",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setupCore",
+            "printedName": "setupCore()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC0C05setupC0yyF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C05setupC0yyF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uninitialize",
+            "printedName": "uninitialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC0C12uninitializeyyF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C12uninitializeyyF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20CinnoxVisitorCoreSDK0abC0C",
+        "mangledName": "$s20CinnoxVisitorCoreSDK0abC0C",
+        "moduleName": "CinnoxVisitorCoreSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Kingfisher",
+        "printedName": "Kingfisher",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "M800CoreSDK",
+        "printedName": "M800CoreSDK",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CinnoxVisitorWidgetSourceButton",
+        "printedName": "CinnoxVisitorWidgetSourceButton",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "frontImageView",
+            "printedName": "frontImageView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC14frontImageViewSo07UIImageJ0Cvp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC14frontImageViewSo07UIImageJ0Cvp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC14frontImageViewSo07UIImageJ0Cvg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC14frontImageViewSo07UIImageJ0Cvg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC14frontImageViewSo07UIImageJ0Cvs",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC14frontImageViewSo07UIImageJ0Cvs",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC14frontImageViewSo07UIImageJ0CvM",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC14frontImageViewSo07UIImageJ0CvM",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activityIndicatorView",
+            "printedName": "activityIndicatorView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIActivityIndicatorView",
+                "printedName": "UIKit.UIActivityIndicatorView",
+                "usr": "c:objc(cs)UIActivityIndicatorView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC21activityIndicatorViewSo010UIActivityiJ0Cvp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC21activityIndicatorViewSo010UIActivityiJ0Cvp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIActivityIndicatorView",
+                    "printedName": "UIKit.UIActivityIndicatorView",
+                    "usr": "c:objc(cs)UIActivityIndicatorView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC21activityIndicatorViewSo010UIActivityiJ0Cvg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC21activityIndicatorViewSo010UIActivityiJ0Cvg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIActivityIndicatorView",
+                    "printedName": "UIKit.UIActivityIndicatorView",
+                    "usr": "c:objc(cs)UIActivityIndicatorView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC21activityIndicatorViewSo010UIActivityiJ0Cvs",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC21activityIndicatorViewSo010UIActivityiJ0Cvs",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC21activityIndicatorViewSo010UIActivityiJ0CvM",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC21activityIndicatorViewSo010UIActivityiJ0CvM",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activityIndicatorViewShown",
+            "printedName": "activityIndicatorViewShown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC26activityIndicatorViewShownSbvp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC26activityIndicatorViewShownSbvp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC26activityIndicatorViewShownSbvg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC26activityIndicatorViewShownSbvg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(front:rear:indicator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorWidgetSourceButton",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetSourceButton",
+                "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidgetSourceButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIImageView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIImageView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIActivityIndicatorView",
+                "printedName": "UIKit.UIActivityIndicatorView",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIActivityIndicatorView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC5front4rear9indicatorACSo11UIImageViewC_AHSo019UIActivityIndicatorL0Ctcfc",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC5front4rear9indicatorACSo11UIImageViewC_AHSo019UIActivityIndicatorL0Ctcfc",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setupLayout",
+            "printedName": "setupLayout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC11setupLayoutyyF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC11setupLayoutyyF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setFloatingButtonImage",
+            "printedName": "setFloatingButtonImage(frontName:rearName:bundleClass:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC011setFloatingG5Image9frontName04rearL011bundleClassySS_SSyXltF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC011setFloatingG5Image9frontName04rearL011bundleClassySS_SSyXltF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setActivityIndicatorView",
+            "printedName": "setActivityIndicatorView(style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Style",
+                "printedName": "UIKit.UIActivityIndicatorView.Style",
+                "usr": "c:@E@UIActivityIndicatorViewStyle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC24setActivityIndicatorView5styleySo010UIActivityjK5StyleV_tF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC24setActivityIndicatorView5styleySo010UIActivityjK5StyleV_tF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLoading",
+            "printedName": "setLoading(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC10setLoading7enabledySb_tF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC10setLoading7enabledySb_tF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hiddenFloatingButton",
+            "printedName": "hiddenFloatingButton(hidden:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC014hiddenFloatingG00H0ySb_tF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC014hiddenFloatingG00H0ySb_tF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateFrame",
+            "printedName": "updateFrame()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC11updateFrameyyF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC11updateFrameyyF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidgetSourceButton(im)layoutSubviews",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC14layoutSubviewsyyF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateImage",
+            "printedName": "updateImage(icon:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC11updateImage4icony10Foundation3URLVSg_tF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC11updateImage4icony10Foundation3URLVSg_tF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorWidgetSourceButton",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetSourceButton",
+                "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidgetSourceButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidgetSourceButton(im)initWithFrame:",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC5frameACSo6CGRectV_tcfc",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidgetSourceButton",
+        "mangledName": "$s20CinnoxVisitorCoreSDK0aB18WidgetSourceButtonC",
+        "moduleName": "CinnoxVisitorCoreSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIButton",
+        "superclassNames": [
+          "UIKit.UIButton",
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KingfisherCompatible",
+            "printedName": "KingfisherCompatible",
+            "usr": "s:10Kingfisher0A10CompatibleP",
+            "mangledName": "$s10Kingfisher0A10CompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "XIBLocalizable",
+            "printedName": "XIBLocalizable",
+            "usr": "s:20LiveConnectUIKit_iOS14XIBLocalizableP",
+            "mangledName": "$s20LiveConnectUIKit_iOS14XIBLocalizableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CinnoxVisitorCoreError",
+        "printedName": "CinnoxVisitorCoreError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initFailed",
+            "printedName": "initFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CinnoxVisitorCoreSDK.CinnoxVisitorCoreError.Type) -> CinnoxVisitorCoreSDK.CinnoxVisitorCoreError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CinnoxVisitorCoreError",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreError",
+                    "usr": "s:20CinnoxVisitorCoreSDK0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CinnoxVisitorCoreError",
+                        "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreError",
+                        "usr": "s:20CinnoxVisitorCoreSDK0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC5ErrorO10initFailedyA2CmF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC5ErrorO10initFailedyA2CmF",
+            "moduleName": "CinnoxVisitorCoreSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorCoreError",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreError",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorCoreError",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorCoreError",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC5ErrorO9hashValueSivp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC5ErrorO9hashValueSivp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0abC5ErrorO9hashValueSivg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0abC5ErrorO9hashValueSivg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20CinnoxVisitorCoreSDK0abC5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0abC5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20CinnoxVisitorCoreSDK0abC5ErrorO",
+        "mangledName": "$s20CinnoxVisitorCoreSDK0abC5ErrorO",
+        "moduleName": "CinnoxVisitorCoreSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LiveConnectUIKit_iOS",
+        "printedName": "LiveConnectUIKit_iOS",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "M800CallSDK",
+        "printedName": "M800CallSDK",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "M800MessageSDK",
+        "printedName": "M800MessageSDK",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "M800CoreSDK",
+        "printedName": "M800CoreSDK",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CinnoxVisitorCoreSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CinnoxVisitorWidget",
+        "printedName": "CinnoxVisitorWidget",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "floatingButton",
+            "printedName": "floatingButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorWidgetSourceButton",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetSourceButton",
+                "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidgetSourceButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC14floatingButtonAA0abe6SourceG0Cvp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC14floatingButtonAA0abe6SourceG0Cvp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CinnoxVisitorWidgetSourceButton",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetSourceButton",
+                    "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidgetSourceButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC14floatingButtonAA0abe6SourceG0Cvg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC14floatingButtonAA0abe6SourceG0Cvg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CinnoxVisitorWidgetSourceButton",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetSourceButton",
+                    "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidgetSourceButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC14floatingButtonAA0abe6SourceG0Cvs",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC14floatingButtonAA0abe6SourceG0Cvs",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC14floatingButtonAA0abe6SourceG0CvM",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC14floatingButtonAA0abe6SourceG0CvM",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appearance",
+            "printedName": "appearance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "M800CoreSDK.LiveConnectVisitorAppearance?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LiveConnectVisitorAppearance",
+                    "printedName": "M800CoreSDK.LiveConnectVisitorAppearance",
+                    "usr": "s:11M800CoreSDK28LiveConnectVisitorAppearanceC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC10appearance04M800cD0011LiveConnectB10AppearanceCSgvp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC10appearance04M800cD0011LiveConnectB10AppearanceCSgvp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "M800CoreSDK.LiveConnectVisitorAppearance?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LiveConnectVisitorAppearance",
+                        "printedName": "M800CoreSDK.LiveConnectVisitorAppearance",
+                        "usr": "s:11M800CoreSDK28LiveConnectVisitorAppearanceC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC10appearance04M800cD0011LiveConnectB10AppearanceCSgvg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC10appearance04M800cD0011LiveConnectB10AppearanceCSgvg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "orientationSubject",
+            "printedName": "orientationSubject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CurrentValueSubject",
+                "printedName": "Combine.CurrentValueSubject<UIKit.UIDeviceOrientation, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIDeviceOrientation",
+                    "printedName": "UIKit.UIDeviceOrientation",
+                    "usr": "c:@E@UIDeviceOrientation"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine19CurrentValueSubjectC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC18orientationSubject7Combine012CurrentValueG0CySo19UIDeviceOrientationVs5NeverOGvp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC18orientationSubject7Combine012CurrentValueG0CySo19UIDeviceOrientationVs5NeverOGvp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CurrentValueSubject",
+                    "printedName": "Combine.CurrentValueSubject<UIKit.UIDeviceOrientation, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIDeviceOrientation",
+                        "printedName": "UIKit.UIDeviceOrientation",
+                        "usr": "c:@E@UIDeviceOrientation"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine19CurrentValueSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC18orientationSubject7Combine012CurrentValueG0CySo19UIDeviceOrientationVs5NeverOGvg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC18orientationSubject7Combine012CurrentValueG0CySo19UIDeviceOrientationVs5NeverOGvg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CurrentValueSubject",
+                    "printedName": "Combine.CurrentValueSubject<UIKit.UIDeviceOrientation, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIDeviceOrientation",
+                        "printedName": "UIKit.UIDeviceOrientation",
+                        "usr": "c:@E@UIDeviceOrientation"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine19CurrentValueSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC18orientationSubject7Combine012CurrentValueG0CySo19UIDeviceOrientationVs5NeverOGvs",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC18orientationSubject7Combine012CurrentValueG0CySo19UIDeviceOrientationVs5NeverOGvs",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC18orientationSubject7Combine012CurrentValueG0CySo19UIDeviceOrientationVs5NeverOGvM",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC18orientationSubject7Combine012CurrentValueG0CySo19UIDeviceOrientationVs5NeverOGvM",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastOrientationAxis",
+            "printedName": "lastOrientationAxis",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorWidgetOrientationAxis",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC19lastOrientationAxisAA0abegH0Ovp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC19lastOrientationAxisAA0abegH0Ovp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CinnoxVisitorWidgetOrientationAxis",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis",
+                    "usr": "s:20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC19lastOrientationAxisAA0abegH0Ovg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC19lastOrientationAxisAA0abegH0Ovg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CinnoxVisitorWidgetOrientationAxis",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis",
+                    "usr": "s:20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC19lastOrientationAxisAA0abegH0Ovs",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC19lastOrientationAxisAA0abegH0Ovs",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC19lastOrientationAxisAA0abegH0OvM",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC19lastOrientationAxisAA0abegH0OvM",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sourceView",
+            "printedName": "sourceView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC10sourceViewSo6UIViewCSgvp",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC10sourceViewSo6UIViewCSgvp",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC10sourceViewSo6UIViewCSgvg",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC10sourceViewSo6UIViewCSgvg",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC10sourceViewSo6UIViewCSgvs",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC10sourceViewSo6UIViewCSgvs",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CinnoxVisitorCoreSDK0aB6WidgetC10sourceViewSo6UIViewCSgvM",
+                "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC10sourceViewSo6UIViewCSgvM",
+                "moduleName": "CinnoxVisitorCoreSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CinnoxVisitorWidget",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidget",
+                "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidget"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidget(im)initWithFrame:",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC5frameACSo6CGRectV_tcfc",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidget?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CinnoxVisitorWidget",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidget",
+                    "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidget"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidget(im)initWithCoder:",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidget(im)layoutSubviews",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC14layoutSubviewsyyF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launch",
+            "printedName": "launch()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidget(im)launch",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC6launchyyF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CinnoxVisitorCoreSDK@objc(cs)CinnoxVisitorWidget",
+        "mangledName": "$s20CinnoxVisitorCoreSDK0aB6WidgetC",
+        "moduleName": "CinnoxVisitorCoreSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CinnoxVisitorWidgetOrientationAxis",
+        "printedName": "CinnoxVisitorWidgetOrientationAxis",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "left",
+            "printedName": "left",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis.Type) -> (CoreGraphics.CGFloat) -> CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat) -> CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CinnoxVisitorWidgetOrientationAxis",
+                        "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis",
+                        "usr": "s:20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ratio: CoreGraphics.CGFloat)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CinnoxVisitorWidgetOrientationAxis",
+                        "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis",
+                        "usr": "s:20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO4leftyAC0C10Foundation7CGFloatV_tcACmF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO4leftyAC0C8Graphics7CGFloatV_tcACmF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "right",
+            "printedName": "right",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis.Type) -> (CoreGraphics.CGFloat) -> CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat) -> CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CinnoxVisitorWidgetOrientationAxis",
+                        "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis",
+                        "usr": "s:20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(ratio: CoreGraphics.CGFloat)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CinnoxVisitorWidgetOrientationAxis",
+                        "printedName": "CinnoxVisitorCoreSDK.CinnoxVisitorWidgetOrientationAxis",
+                        "usr": "s:20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO5rightyAC0C10Foundation7CGFloatV_tcACmF",
+            "mangledName": "$s20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO5rightyAC0C8Graphics7CGFloatV_tcACmF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "fixedbinaryorder": 1
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO",
+        "mangledName": "$s20CinnoxVisitorCoreSDK0aB21WidgetOrientationAxisO",
+        "moduleName": "CinnoxVisitorCoreSDK",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KingfisherWrapper",
+        "printedName": "KingfisherWrapper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setImageWithRetry",
+            "printedName": "setImageWithRetry(with:placeholder:options:progressBlock:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Kingfisher.DownloadTask?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DownloadTask",
+                    "printedName": "Kingfisher.DownloadTask",
+                    "usr": "s:10Kingfisher12DownloadTaskV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Kingfisher.Placeholder?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Placeholder",
+                    "printedName": "Kingfisher.Placeholder",
+                    "usr": "s:10Kingfisher11PlaceholderP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Kingfisher.KingfisherOptionsInfoItem]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Kingfisher.KingfisherOptionsInfoItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KingfisherOptionsInfoItem",
+                        "printedName": "Kingfisher.KingfisherOptionsInfoItem",
+                        "usr": "s:10Kingfisher0A15OptionsInfoItemO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Int64, Swift.Int64) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int64, Swift.Int64) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int64, Swift.Int64)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int64",
+                            "printedName": "Swift.Int64",
+                            "usr": "s:s5Int64V"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int64",
+                            "printedName": "Swift.Int64",
+                            "usr": "s:s5Int64V"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<Kingfisher.RetrieveImageResult, Kingfisher.KingfisherError>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<Kingfisher.RetrieveImageResult, Kingfisher.KingfisherError>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<Kingfisher.RetrieveImageResult, Kingfisher.KingfisherError>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RetrieveImageResult",
+                            "printedName": "Kingfisher.RetrieveImageResult",
+                            "usr": "s:10Kingfisher19RetrieveImageResultV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KingfisherError",
+                            "printedName": "Kingfisher.KingfisherError",
+                            "usr": "s:10Kingfisher0A5ErrorO"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Kingfisher0A7WrapperV20CinnoxVisitorCoreSDKSo11UIImageViewCRbzlE17setImageWithRetry4with11placeholder7options13progressBlock17completionHandlerAA12DownloadTaskVSg10Foundation3URLVSg_AA11Placeholder_pSgSayAA0A15OptionsInfoItemOGSgys5Int64V_A_tcSgys6ResultOyAA08RetrieveJ6ResultVAA0A5ErrorOGcSgtF",
+            "mangledName": "$s10Kingfisher0A7WrapperV20CinnoxVisitorCoreSDKSo11UIImageViewCRbzlE17setImageWithRetry4with11placeholder7options13progressBlock17completionHandlerAA12DownloadTaskVSg10Foundation3URLVSg_AA11Placeholder_pSgSayAA0A15OptionsInfoItemOGSgys5Int64V_A_tcSgys6ResultOyAA08RetrieveJ6ResultVAA0A5ErrorOGcSgtF",
+            "moduleName": "CinnoxVisitorCoreSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIImageView>",
+            "sugared_genericSig": "<Base where Base : UIKit.UIImageView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Kingfisher0A7WrapperV",
+        "mangledName": "$s10Kingfisher0A7WrapperV",
+        "moduleName": "Kingfisher",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Base>",
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jimmy\/m800\/CinnoxVisitorCore\/CinnoxVisitorCore\/CinnoxVisitorCore.swift",
+      "kind": "Array",
+      "offset": 608,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jimmy\/m800\/CinnoxVisitorCore\/CinnoxVisitorCore\/CinnoxVisitorWidgetSourceButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 351,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jimmy\/m800\/CinnoxVisitorCore\/CinnoxVisitorCore\/CinnoxVisitorWidgetSourceButton.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 31,
+      "value": "\"CinnoxVisitorCoreSDK.CinnoxVisitorWidgetSourceButton\""
+    },
+    {
+      "filePath": "\/Users\/jimmy\/m800\/CinnoxVisitorCore\/CinnoxVisitorCore\/CinnoxVisitorWidget.swift",
+      "kind": "IntegerLiteral",
+      "offset": 627,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jimmy\/m800\/CinnoxVisitorCore\/CinnoxVisitorCore\/CinnoxVisitorWidget.swift",
+      "kind": "Array",
+      "offset": 724,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

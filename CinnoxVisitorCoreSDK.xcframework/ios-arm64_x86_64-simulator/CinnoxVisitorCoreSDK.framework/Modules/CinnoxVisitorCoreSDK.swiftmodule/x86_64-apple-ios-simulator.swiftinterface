@@ -1,0 +1,42 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name CinnoxVisitorCoreSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import Foundation
+import Kingfisher
+import LiveConnectUIKit_iOS
+import M800CallSDK
+import M800CoreSDK
+import M800MessageSDK
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public protocol CinnoxVisitorCoreDelegate : AnyObject {
+  func onInitializationEnd(success: Swift.Bool, error: CinnoxVisitorCoreSDK.CinnoxVisitorCoreError?)
+}
+@_hasMissingDesignatedInitializers public class CinnoxVisitorCore {
+  public func configure()
+  public static func initialize(serviceName: Swift.String, delegate: CinnoxVisitorCoreSDK.CinnoxVisitorCoreDelegate) -> CinnoxVisitorCoreSDK.CinnoxVisitorCore
+  public func uninitialize()
+  @objc deinit
+}
+public enum CinnoxVisitorCoreError : Swift.Error {
+  case initFailed
+  public static func == (a: CinnoxVisitorCoreSDK.CinnoxVisitorCoreError, b: CinnoxVisitorCoreSDK.CinnoxVisitorCoreError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CinnoxVisitorWidget : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+}
+@objc extension CinnoxVisitorCoreSDK.CinnoxVisitorWidget {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func launch()
+}
+extension CinnoxVisitorCoreSDK.CinnoxVisitorCoreError : Swift.Equatable {}
+extension CinnoxVisitorCoreSDK.CinnoxVisitorCoreError : Swift.Hashable {}
