@@ -1,3 +1,7 @@
+[![Swift](https://img.shields.io/badge/Swift-5.7_5.8-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.7_5.8-Orange?style=flat-square)
+[![iOS](https://img.shields.io/badge/iOS-14+-blue?style=flat-square)](https://img.shields.io/badge/iOS-14-blue?style=flat-square)
+[![LICENSE](https://img.shields.io/badge/LICENSE-MIT-black?style=flat-square)](https://img.shields.io/badge/iOS-14-blue?style=flat-square)
+
 # `CinnoxVisitorCoreSDK`
 
 This guide provides instructions for setting up and using the `CinnoxVisitorCoreSDK` framework in your iOS application.
@@ -72,7 +76,7 @@ This code creates an instance of `CinnoxVisitorWidget` and adds it as a subview 
 That's it! You have now successfully integrated the `CinnoxVisitorCoreSDK` framework into your iOS application. You can customize and extend its functionality as needed.
 
 ### Step 3: Setup APNS Certificate
-We are setting up your product's APNS (Apple Push Notification Service) integration to provide efficient push notification services. In order to proceed, we need you to provide `Team ID`, `Key ID` and `.p8` Certificates file from your Apple Developer account.
+We are setting up your product's APNS (Apple Push Notification Service) integration to provide efficient push notification services. In order to proceed, we need you to provide app `Bundle Identifier`, `Team ID`, `Key ID` and `.p8` Certificates file from your Apple Developer account.
 
 Please follow the instructions below to provide the required details:
 
