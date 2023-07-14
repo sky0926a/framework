@@ -80,26 +80,35 @@ We are setting up your product's APNS (Apple Push Notification Service) integrat
 
 Please follow the instructions below to provide the required details:
 
+Here are the required details:
+
 #### 1. Apple Developer Program Team ID
 Your Team ID is a unique identifier assigned by Apple. You can find it by:
 
-Going to Apple Developer Membership (https://developer.apple.com/account/#/membership)
+Signing in to your Apple Developer account
+Going to Membership(https://developer.apple.com/account/#/membership)
 Your Team ID will be listed there
 #### 2. Key ID of your APNS Key
 Each APNS Key has a unique Key ID. You can find the Key ID by:
 
-Going to Apple Developer Certificates, Identifiers & Profiles > Keys (https://developer.apple.com/account/resources)
+Signing in to your Apple Developer account
+Going to Certificates, Identifiers & Profiles > Keys (https://developer.apple.com/account/resources/authkeys/list)
 If you already have an APNS Key, the Key ID will be listed there
 #### 3. p8 file of your APNS Key
 The APNS Key should be downloaded as a .p8 file. If you haven't created an APNS Key yet, you can do so by:
 
 Signing in to your Apple Developer account
-Going to Certificates, Identifiers & Profiles > Keys
+Going to Certificates, Identifiers & Profiles > Keys (https://developer.apple.com/account/resources/authkeys/list)
 Clicking the "+" button to create a new key
 Entering a key name and checking the "Apple Push Notifications service (APNs)" option
 Clicking "Continue" and then "Register"
 On the confirmation page, click "Download" to save the .p8 file
-Please provide us with these details so that we can proceed with the setup. If you have any questions or need assistance, feel free to get in touch.
+#### 4. Application's Bundle ID
+The Bundle ID is a unique identifier for your app. Here is how to get it:
 
-We appreciate your prompt attention to this matter and look forward to delivering the best possible service.
+Signing in to your Apple Developer account
+Going to Certificates, Identifiers & Profiles > Identifiers (https://developer.apple.com/account/resources/identifiers/list)
+Locating your app's identifier in the list and clicking on it
+Your Bundle ID will be listed on the App ID details page, generally in the format com.companyname.appname
 
+Once we receive these details, we can proceed with the setup. If you have any questions or need assistance, please don't hesitate to contact us.
